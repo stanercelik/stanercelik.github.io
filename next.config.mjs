@@ -17,6 +17,8 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  basePath: '',
+  trailingSlash: true
 }
 
 mergeConfig(nextConfig, userConfig)
