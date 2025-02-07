@@ -1,1 +1,0 @@
-# stanercelik.github.io
