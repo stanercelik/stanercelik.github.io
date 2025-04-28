@@ -7,6 +7,7 @@ import { FaGithub, FaGooglePlay } from 'react-icons/fa'
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
 import { useState, useEffect } from 'react'
 import { FastAverageColor } from 'fast-average-color'
+import React from 'react'
 
 const fac = new FastAverageColor()
 
@@ -16,13 +17,24 @@ const projects = [
     title: "POLYSLEEP",
     description: "A polyphasic sleep scheduling iOS app that generates personalized sleep plans based on user preferences.",
     images: [
-      "/images/polysleep/polysleep-3.jpg",
-      "/images/polysleep/polysleep-1.jpg",
-      "/images/polysleep/polysleep-2.jpg",
+      "/images/polysleep/mainScreen-polysleep.png",
+      "/images/polysleep/analytics3-polysleep.png",
+      "/images/polysleep/history-polysleep.png",
+      "/images/polysleep/profile-polysleep.png",
     ],
     technologies: ["SwiftUI", "MVVM", "SwiftData", "RevenueCat", "UserNotifications", "AVFoundation", "Localization"],
-    link: "https://github.com/stanercelik/PolySleep",
-    githubLink: true,
+    links: [
+      {
+        title: "Learn More",
+        url: "/projects/polysleep"
+      },
+      {
+        title: "GitHub",
+        url: "https://github.com/stanercelik/PolySleep",
+        icon: FaGithub
+      }
+    ],
+    multipleLinks: true,
     status: "In Development"
   },
   {
@@ -325,7 +337,7 @@ const Projects = () => {
                           target="_blank"
                           className="flex-1 px-4 py-2 rounded-md border border-current hover:bg-black/5 dark:hover:bg-white/5 transition-colors duration-300 text-center flex items-center justify-center gap-2"
                         >
-                          {('icon' in link) && <link.icon className="text-lg" />}
+                          {link.icon && React.createElement(link.icon, { className: "text-lg" })}
                           {link.title}
                         </Link>
                       ))}
