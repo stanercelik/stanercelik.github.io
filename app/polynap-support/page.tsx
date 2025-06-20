@@ -72,7 +72,7 @@ export default function PolyNapSupport() {
                   Q: My notifications aren't working. What should I do?
                 </h4>
                 <p className="text-muted-foreground">
-                  A: Go to Settings > Notifications and check if notifications are enabled. You can also adjust how many minutes before sleep time you want to receive notifications. Make sure your phone's notification permissions are enabled for PolyNap.
+                  A: Go to Settings {'>'} Notifications and check if notifications are enabled. You can also adjust how many minutes before sleep time you want to receive notifications. Make sure your phone's notification permissions are enabled for PolyNap.
                 </p>
               </div>
 
@@ -81,7 +81,7 @@ export default function PolyNapSupport() {
                   Q: How do I set up sleep alarms?
                 </h4>
                 <p className="text-muted-foreground">
-                  A: Navigate to Settings > Alarms. You can set individual alarms for each sleep block in your schedule. Make sure your phone's alarm permissions are enabled for the app.
+                  A: Navigate to Settings {'>'} Alarms. You can set individual alarms for each sleep block in your schedule. Make sure your phone's alarm permissions are enabled for the app.
                 </p>
               </div>
 
