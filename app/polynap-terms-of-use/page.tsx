@@ -160,20 +160,83 @@ export default function PolyNapTermsOfUse() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">12. Contact Us</h2>
+            <h2 className="text-2xl font-semibold mb-4">12. Apple Specific Terms</h2>
+            <div className="bg-muted/50 p-6 rounded-lg border">
+              <p className="mb-4 text-muted-foreground">
+                The following terms apply to your use of PolyNap when downloaded from the Apple App Store:
+              </p>
+              
+              <div className="space-y-4">
+                <div className="border-l-4 border-primary pl-4">
+                  <h4 className="font-medium mb-2">Acknowledgement</h4>
+                  <p className="text-muted-foreground">This Agreement is concluded between you and us only, and not with Apple. We, not Apple, are solely responsible for the App and its content.</p>
+                </div>
+
+                <div className="border-l-4 border-primary pl-4">
+                  <h4 className="font-medium mb-2">Scope of License</h4>
+                  <p className="text-muted-foreground">Your license to use the App is limited to a non-transferable license to use the App on any Apple-branded products that you own or control and as permitted by the Usage Rules set forth in the Apple Media Services Terms and Conditions. The App may be accessed and used by other accounts associated with you via Family Sharing or volume purchasing.</p>
+                </div>
+
+                <div className="border-l-4 border-primary pl-4">
+                  <h4 className="font-medium mb-2">Maintenance and Support</h4>
+                  <p className="text-muted-foreground">We are solely responsible for providing any maintenance and support services for the App. Apple has no obligation whatsoever to furnish any maintenance and support services with respect to the App.</p>
+                </div>
+
+                <div className="border-l-4 border-primary pl-4">
+                  <h4 className="font-medium mb-2">Warranty and Product Claims</h4>
+                  <p className="text-muted-foreground">We are solely responsible for any product warranties. In the event of any failure of the App to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price for the App to you. To the maximum extent permitted by applicable law, Apple will have no other warranty obligation whatsoever with respect to the App.</p>
+                </div>
+
+                <div className="border-l-4 border-primary pl-4">
+                  <h4 className="font-medium mb-2">Intellectual Property Rights</h4>
+                  <p className="text-muted-foreground">In the event of any third party claim that the App infringes that third party's intellectual property rights, we, not Apple, will be solely responsible for the investigation, defense, settlement and discharge of any such intellectual property infringement claim.</p>
+                </div>
+
+                <div className="border-l-4 border-primary pl-4">
+                  <h4 className="font-medium mb-2">Third Party Beneficiary</h4>
+                  <p className="text-muted-foreground">Apple and Apple's subsidiaries are third party beneficiaries of this Agreement, and upon your acceptance of the terms and conditions of this Agreement, Apple will have the right to enforce this Agreement against you as a third party beneficiary thereof.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4">13. User Representations</h2>
+            <div className="bg-muted/50 p-6 rounded-lg border">
+              <p className="mb-4 text-muted-foreground">
+                By using this App, you represent and warrant that:
+              </p>
+              <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
+                <li>You are not located in a country that is subject to a U.S. Government embargo, or that has been designated by the U.S. Government as a "terrorist supporting" country.</li>
+                <li>You are not listed on any U.S. Government list of prohibited or restricted parties.</li>
+                <li>You will comply with applicable third party terms of agreement when using this App.</li>
+              </ul>
+            </div>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4">14. Contact Information</h2>
             <div className="bg-muted/50 p-6 rounded-lg border">
               <p className="text-muted-foreground">
                 If you have any questions about these Terms, please contact us:
               </p>
-              <p className="mt-4">
-                <strong>Email:</strong>{" "}
-                <a 
-                  href="mailto:tanercelik2001@gmail.com" 
-                  className="text-primary hover:underline font-medium"
-                >
-                  tanercelik2001@gmail.com
-                </a>
-              </p>
+              <div className="mt-4 space-y-2">
+                <p>
+                  <strong>Developer:</strong> Salim Taner Çelik
+                </p>
+                <p>
+                  <strong>Email:</strong>{" "}
+                  <a 
+                    href="mailto:tanercelik2001@gmail.com" 
+                    className="text-primary hover:underline font-medium"
+                  >
+                    tanercelik2001@gmail.com
+                  </a>
+                </p>
+                <p>
+                  <strong>Address:</strong> Reisdere Mahallesi, Çeşme, İzmir, Turkey
+                </p>
+              </div>
             </div>
           </section>
 

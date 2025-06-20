@@ -160,20 +160,83 @@ export default function PolyNapKullanimKosullari() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4">12. Bize Ulaşın</h2>
+            <h2 className="text-2xl font-semibold mb-4">12. Apple'a Özel Koşullar</h2>
+            <div className="bg-muted/50 p-6 rounded-lg border">
+              <p className="mb-4 text-muted-foreground">
+                Aşağıdaki koşullar, PolyNap'i Apple App Store'dan indirdiğinizde kullanımınız için geçerlidir:
+              </p>
+              
+              <div className="space-y-4">
+                <div className="border-l-4 border-primary pl-4">
+                  <h4 className="font-medium mb-2">Kabul</h4>
+                  <p className="text-muted-foreground">Bu Sözleşme sadece siz ve bizim aramızda yapılmıştır, Apple ile değil. Apple değil, biz Uygulama ve içeriğinden tamamen sorumluyuz.</p>
+                </div>
+
+                <div className="border-l-4 border-primary pl-4">
+                  <h4 className="font-medium mb-2">Lisans Kapsamı</h4>
+                  <p className="text-muted-foreground">Uygulamayı kullanma lisansınız, sahip olduğunuz veya kontrol ettiğiniz Apple markalı ürünlerde ve Apple Media Services Kullanım Koşullarında belirtilen Kullanım Kurallarının izin verdiği şekilde Uygulamayı kullanmak için devredilemez bir lisansla sınırlıdır. Uygulama, Aile Paylaşımı veya toplu satın alma yoluyla sizinle ilişkili diğer hesaplar tarafından erişilebilir ve kullanılabilir.</p>
+                </div>
+
+                <div className="border-l-4 border-primary pl-4">
+                  <h4 className="font-medium mb-2">Bakım ve Destek</h4>
+                  <p className="text-muted-foreground">Uygulama için herhangi bir bakım ve destek hizmeti sağlamaktan tamamen biz sorumluyuz. Apple'ın Uygulama ile ilgili herhangi bir bakım ve destek hizmeti sağlama yükümlülüğü yoktur.</p>
+                </div>
+
+                <div className="border-l-4 border-primary pl-4">
+                  <h4 className="font-medium mb-2">Garanti ve Ürün İddiaları</h4>
+                  <p className="text-muted-foreground">Herhangi bir ürün garantisinden tamamen biz sorumluyuz. Uygulamanın geçerli herhangi bir garantiye uymaması durumunda, Apple'a bildirebilirsiniz ve Apple size Uygulama için ödenen tutarı iade edecektir. Yürürlükteki yasaların izin verdiği azami ölçüde, Apple'ın Uygulama ile ilgili başka hiçbir garanti yükümlülüğü olmayacaktır.</p>
+                </div>
+
+                <div className="border-l-4 border-primary pl-4">
+                  <h4 className="font-medium mb-2">Fikri Mülkiyet Hakları</h4>
+                  <p className="text-muted-foreground">Uygulamanın herhangi bir üçüncü tarafın fikri mülkiyet haklarını ihlal ettiğine dair herhangi bir üçüncü taraf iddiası durumunda, Apple değil, biz bu tür fikri mülkiyet ihlali iddiasının araştırılması, savunulması, çözülmesi ve tahliyesinden tamamen sorumlu olacağız.</p>
+                </div>
+
+                <div className="border-l-4 border-primary pl-4">
+                  <h4 className="font-medium mb-2">Üçüncü Taraf Lehdarı</h4>
+                  <p className="text-muted-foreground">Apple ve Apple'ın yan kuruluşları bu Sözleşmenin üçüncü taraf lehdarlarıdır ve bu Sözleşmenin hüküm ve koşullarını kabul etmeniz üzerine, Apple bu Sözleşmeyi sizin aleyhine üçüncü taraf lehdarı olarak uygulama hakkına sahip olacaktır.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4">13. Kullanıcı Beyanları</h2>
+            <div className="bg-muted/50 p-6 rounded-lg border">
+              <p className="mb-4 text-muted-foreground">
+                Bu Uygulamayı kullanarak, aşağıdakileri beyan ve garanti edersiniz:
+              </p>
+              <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
+                <li>ABD Hükümeti ambargosu olan veya ABD Hükümeti tarafından "terörizmi destekleyen" ülke olarak belirlenen bir ülkede bulunmuyorsunuz.</li>
+                <li>ABD Hükümeti'nin yasaklı veya kısıtlı taraflar listesinde yer almıyorsunuz.</li>
+                <li>Bu Uygulamayı kullanırken geçerli üçüncü taraf hizmet sözleşmelerine uyacaksınız.</li>
+              </ul>
+            </div>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-4">14. İletişim Bilgileri</h2>
             <div className="bg-muted/50 p-6 rounded-lg border">
               <p className="text-muted-foreground">
                 Bu Koşullar hakkında herhangi bir sorunuz varsa, lütfen bizimle iletişime geçin:
               </p>
-              <p className="mt-4">
-                <strong>E-posta:</strong>{" "}
-                <a 
-                  href="mailto:tanercelik2001@gmail.com" 
-                  className="text-primary hover:underline font-medium"
-                >
-                  tanercelik2001@gmail.com
-                </a>
-              </p>
+              <div className="mt-4 space-y-2">
+                <p>
+                  <strong>Geliştirici:</strong> Salim Taner Çelik
+                </p>
+                <p>
+                  <strong>E-posta:</strong>{" "}
+                  <a 
+                    href="mailto:tanercelik2001@gmail.com" 
+                    className="text-primary hover:underline font-medium"
+                  >
+                    tanercelik2001@gmail.com
+                  </a>
+                </p>
+                <p>
+                  <strong>Adres:</strong> Reisdere Mahallesi, Çeşme, İzmir, Türkiye
+                </p>
+              </div>
             </div>
           </section>
 
